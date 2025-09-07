@@ -1,0 +1,8 @@
+<suite name="user workflow suite">
+<test name="test flow">
+<classes>
+<class name="UserTests.UserEndPointsTestcases">
+</class>
+</classes>
+</test>
+</suite>
