@@ -7,11 +7,12 @@ import java.util.HashMap;
 import Payloads.POJO;
 import org.testng.ITestResult;
 import org.testng.annotations.AfterMethod;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import Endpoints.UserEndPoints;
 import io.restassured.response.Response;
-
+@Listeners(Utilities.ExtentReportListeners.class)
 public class UserEndpoints_POJO {
 static String loginResp;
 	
